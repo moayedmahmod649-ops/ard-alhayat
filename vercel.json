@@ -28,6 +28,19 @@
    "continue": true
   },
   {
+   "src": "/",
+   "dest": "/api/index.php"
+  },
+  {
+   "src": "/(?:.*/)?\\.ht[^/]*",
+   "status": 404,
+   "dest": "/api/index.php"
+  },
+  {
+   "src": "/.*\\.(?:php\\d?|phtml|phar)",
+   "dest": "/api/index.php"
+  },
+  {
    "handle": "filesystem"
   },
   {

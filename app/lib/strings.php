@@ -59,7 +59,7 @@ return [
  'contact_info'   => ['معلومات التواصل', 'Contact details'],
  'follow'         => ['تابعونا', 'Follow us'],
  'rights'         => ['جميع الحقوق محفوظة', 'All rights reserved'],
- 'built_by'       => ['تصميم وتطوير: شركة التواسط ليبيا للحلول والخدمات الفنية', 'Design & development: Tawasot Libya for Technical Solutions & Services'],
+ 'built_by'       => ['تصميم وتطوير: شركة تواسط ليبيا للحلول والخدمات الفنية', 'Design & development: Tawasot Libya for Technical Solutions & Services'],
  'vision'         => ['رؤيتنا', 'Our vision'],
  'mission'        => ['رسالتنا', 'Our mission'],
  'values'         => ['قيمنا', 'Our values'],

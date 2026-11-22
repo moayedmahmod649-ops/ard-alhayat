@@ -1,0 +1,14 @@
+# SSL validation files (AutoSSL / Let's Encrypt / Sectigo) are served as plain files.
+<IfModule mod_rewrite.c>
+  RewriteEngine Off
+</IfModule>
+Options -Indexes
+<FilesMatch ".*">
+  Require all granted
+</FilesMatch>
+<FilesMatch "^\.ht">
+  Require all denied
+</FilesMatch>
+<FilesMatch "(?i)\.(php\d?|phtml|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>

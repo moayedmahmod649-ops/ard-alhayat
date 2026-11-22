@@ -1,0 +1,8 @@
+# app/ must never be web-served (it normally sits outside the web root anyway).
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>

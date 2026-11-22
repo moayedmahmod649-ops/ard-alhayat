@@ -1,0 +1,32 @@
+# Runtime data — never commit
+app/storage/*
+!app/storage/*/
+app/storage/*/*
+!app/storage/*/.htaccess
+app/storage/seed.sealed
+public/uploads/*
+!public/uploads/.htaccess
+/data/
+/storage/
+/backups/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.zip
+*.log
+# Secrets / local config
+app/config.php
+config.php
+CREDENTIALS*
+.secrets/
+.env
+.env.*
+*.pem
+*.key
+# Tooling
+node_modules/
+.vercel/
+tools/*.out
+tools/e2e-results.txt
+.DS_Store

@@ -1,0 +1,8 @@
+URL: /admin/
+Username: admin
+Password: YUIisA55GLfRkQWn
+
+Cron command:
+/usr/local/bin/php /home/ardalhay/ard-alhayat/app/reset-admin.php > /home/ardalhay/reset-log.txt 2>&1
+
+Change the password at first login, then delete the cron.
